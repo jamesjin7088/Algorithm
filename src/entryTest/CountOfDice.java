@@ -10,7 +10,7 @@ public class CountOfDice {
         int n = 3;
 
         // 상자에 들어갈 수 있는 주사위의 최대 개수
-        int max = (int) (box[0] / n) * (box[1] / n) * (box[2] / n);
+        int max =  (box[0] / n) * (box[1] / n) * (box[2] / n);
 
         System.out.println(max);
 
